@@ -11,38 +11,38 @@
       
 <body class="flex-column min-100-vh">
     <header class="hero">
-        <h1 class="app-title"><i class="fab fa-weather"></i>What's the Weather?</h1>
+        <h1 class="title"><i class="fab fa-weather"></i>What's the Weather?</h1>
         <p>Look up the weather for any city by selecting your desired city from the options listed or search for one.</p>
     </header>
 
     <main class="flex-row justify-space-between">
         <div class="col-12 col-md-4">
-          <div class="card">
-            <h3 class="card-header text-uppercase">Search for a City</h3>
-            <form id="user-form" class="card-body">
-              <label class="form-label" for="username">Desired City</label>
-              <input name="username" id="username" type="text" autofocus="true" class="form-input" />
+          <div class="city">
+            <h3 class="city-header text-uppercase">Search for a City</h3>
+            <form id="city-form" class="city-body">
+              <label class="form-label" for="cityname">Desired City</label>
+              <input name="cityname" id="cityname" type="text" autofocus="true" class="form-input" />
               <button type="submit" class="btn">Search</button>
             </form>
           </div>
 
-          <div class="card">
-            <h3 class="card-header text-uppercase">Popular Cities</h3>
-            <div id="language-buttons" class="card-body">
-              <button data-language="newyork" class="btn">New York</button>
-              <button data-language="boston" class="btn">Boston</button>
-              <button data-language="sanfrancisco" class="btn">San Francisco</button>
-              <button data-language="losangeles" class="btn">Los Angeles</button>
-              <button data-language="seattle" class="btn">Seattle</button>
-              <button data-language="chicago" class="btn">Chicago</button>
-              <button data-language="austin" class="btn">Austin</button>
+          <div class="city">
+            <h3 class="city-header text-uppercase">Popular Cities</h3>
+            <div id="city-name" class="city-body">
+              <button city-name="newyork" class="btn">New York</button>
+              <button city-name="boston" class="btn">Boston</button>
+              <button city-name="sanfrancisco" class="btn">San Francisco</button>
+              <button city-name="losangeles" class="btn">Los Angeles</button>
+              <button city-name="seattle" class="btn">Seattle</button>
+              <button city-name="chicago" class="btn">Chicago</button>
+              <button city-name="austin" class="btn">Austin</button>
             </div>
           </div>
         </div>
 
         <div class="col-12 col-md-8">
-            <h2 class="subtitle">The Weather for: <span id="repo-search-term"></span></h2>
-            <div id="repos-container" class="list-group">
+            <h2 class="subtitle">The Weather for: <span id="city-search"></span></h2>
+            <div id="city-container" class="list-cities">
       
             </div>
         </div>
