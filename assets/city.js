@@ -20,7 +20,7 @@ var getRepoName = function() {
 
 var getRepoIssues = function(repo) {
   // format the github api url
-  var apiUrl = "https://api.github.com/repos/" + repo + "/issues?direction=asc";
+  var apiUrl = "https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&appid=" + repo + "/issues?direction=asc";
 
   // make a get request to url
   fetch(apiUrl).then(function(response) {
