@@ -1,0 +1,71 @@
+body {
+    background-color: #722FEE;
+    margin: 20px;
+    padding: 10px;
+    font-family: "Georgia";
+    color: #350B84;
+}
+header {
+    text-align: center;
+    background-color: #A57BF4;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 35px;
+    float: right;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h2, h3 {
+    display: inline;
+}
+
+p {
+    font-size: 20px;
+}
+
+.form-label, .form-input, .form-textarea {
+    display: block;
+}
+  
+.form-label {
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-left: 65px;
+}
+  
+.form-input {
+    width: 25%;
+    padding: 1%;
+    font-size: 15px;
+  }
+
+form .btn {
+    background-color: #A57BF4; 
+    border: #1E064B;
+    color: #5411D0;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+div .btns {
+    background-color: #A57BF4; 
+    border: #1E064B;
+    color: #5411D0;
+    padding: 5px 40px;
+    text-align: center;
+    display: flex;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
