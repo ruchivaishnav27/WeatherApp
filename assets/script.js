@@ -56,16 +56,16 @@ var getCityName = function(city) {
 var getFeaturedCities = function(city) {
 
   // make a get request to url
-  fetch("https://api.openweathermap.org/data/2.5/onecall/timemachine?lat={lat}&lon={lon}&dt={time}&appid={a5f0248fee7817e0ec325587c9e1160b}").then(function(response) {
-    // request was successful
+  fetch("https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&exclude=hourly&appid={a5f0248fee7817e0ec325587c9e1160b}").then(function(response) {
+     //request was successful
     if (response.ok) {
-      response.json().then(function(data) {
+     response.json().then(function(data) {
         displayCities(data.items, city);
       });
     } else {
       alert("Error: " + response.statusText);
     }
-  });
+ });
 };
 
 var displayRepos = function(repos, searchTerm) {
