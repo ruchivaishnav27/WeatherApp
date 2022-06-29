@@ -6,7 +6,7 @@ This website provides a traveler with a five-day weather forecast of any city in
 
 ## Installation
 
-To view this website, please click on the following link: 
+To view this website, please click on the following link: https://ruchivaishnav27.github.io/WeatherApp/
 
 ## Usage
 
